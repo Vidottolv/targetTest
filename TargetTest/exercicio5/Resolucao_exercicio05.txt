@@ -1,0 +1,38 @@
+5) Dois veículos, um carro e um caminhão, saem respectivamente de cidades opostas pela mesma rodovia. O carro, de Ribeirão Preto em direção a Barretos, a uma velocidade constante de 90 km/h, e o caminhão, de Barretos em direção a Ribeirão Preto, a uma velocidade constante de 80 km/h. Quando eles se cruzarem no percurso, qual estará mais próximo da cidade de Ribeirão Preto?
+
+a) Considerar a distância de 125km entre a cidade de Ribeirão Preto <-> Barretos.
+b) Considerar 3 pedágios como obstáculo e que o carro leva 5 minutos a mais para passar em cada um deles, pois ele não possui dispositivo de cobrança de pedágio.
+c)Explique como chegou no resultado
+
+destrinchando:
+veiculos - 1 carro e 1 caminhão
+carro - 90kmh
+caminhão - 80kmh
+
+tempo de pedagio:
+carro - 15 min
+caminhão - 0 min
+
+Resolução:
+Tempo do Encontro (sem pedagio):
+	Velocidade relativa(vel de ambos somada): 90 km/h + 80 km/h = 170 km/h.
+Tempo: Distância total / Velocidade relativa
+Tempo: 125 km / 170 km/h ≈ 0,735 horas ≈ 44 minutos.
+
+
+Distância Percorrida pelo Caminhão:
+Distância: Velocidade × Tempo = 80 km/h × 0,735 h ≈ 58,8 km.
+Distância do caminhão até Ribeirão Preto: 125 km (distância total) - 58,8 km ≈ 66,2 km.
+
+
+Distância Percorrida pelo Carro:
+Tempo adicional nos pedágios: 3 pedágios × 5 minutos/pedágio = 15 minutos = 0,25 horas.
+Tempo total do carro: 44,1 minutos + 15 minutos = 59,1 minutos ≈ 0,985 horas.
+Distância: 90 km/h × 0,985 h ≈ 88,65 km.
+Distância do carro até Ribeirão Preto: 125 km - 88,65 km ≈ 36,35 km.
+
+
+Conclusão:
+Caminhão: Estará a aproximadamente 66,2 km de Ribeirão Preto.
+Carro: ESTARÁ A APROXIMADAMENTE 36,35 KM DE RIBEIRÃO PRETO.
+Portanto, no momento do encontro, o caminhão estará mais próximo da cidade de Barretos e O CARRO ESTARÁ MAIS PRÓXIMO DA CIDADE DE RIBEIRÃO PRETO.
