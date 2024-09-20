@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Threading.Tasks;
+using TargetTest.exercicio1;
+using TargetTest.exercicio2;
 
 namespace TargetTest
 {
@@ -6,24 +13,14 @@ namespace TargetTest
     {
         static void Main(string[] args)
         {
-            int INDICE = 12;
-            int SOMA = 0;
-            int K = 1;
-
-            while (K < INDICE)
+            if (args.Length > 0 && args[0] == "exe1")
             {
-                K++;
-                SOMA = Aggregate(SOMA,K);
-                //K = K + 1;
-                //SOMA = SOMA + K;
+                Program1.Executar();
             }
-
-            Console.WriteLine(SOMA);
-        }
-
-        internal static int Aggregate(int FirstValue, int SecondValue)
-        {
-            return FirstValue += SecondValue;
+            else if (args.Length > 0 && args[0] == "exe2")
+            {
+                Program2.Executar();
+            }
         }
     }
 }

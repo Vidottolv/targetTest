@@ -12,3 +12,4 @@ C:\src\apps\targetTest\TargetTest\obj\Debug\net8.0\refint\TargetTest.dll
 C:\src\apps\targetTest\TargetTest\obj\Debug\net8.0\TargetTest.pdb
 C:\src\apps\targetTest\TargetTest\obj\Debug\net8.0\TargetTest.genruntimeconfig.cache
 C:\src\apps\targetTest\TargetTest\obj\Debug\net8.0\ref\TargetTest.dll
+C:\src\apps\targetTest\TargetTest\obj\Debug\net8.0\TargetTest.sourcelink.json
