@@ -2,7 +2,7 @@
 
 namespace TargetTest.exercicio1
 {
-    class Program1
+    class Exercicio1
     {
         internal static void Executar()
         {

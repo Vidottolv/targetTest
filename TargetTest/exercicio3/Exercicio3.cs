@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TargetTest.exercicio3
 {
-    internal class Program3
+    internal class Exercicio3
     {
         internal static void Executar()
         {

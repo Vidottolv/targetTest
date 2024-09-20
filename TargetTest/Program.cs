@@ -16,15 +16,15 @@ namespace TargetTest
         {
             if (args.Length > 0 && args[0] == "exe1")
             {
-                Program1.Executar();
+                Exercicio1.Executar();
             }
             else if (args.Length > 0 && args[0] == "exe2")
             {
-                Program2.Executar();
+                Exercicio2.Executar();
             }
             else if(args.Length > 0 && args[0] == "exe3")
             {
-                Program3.Executar();
+                Exercicio3.Executar();
             }
         }
     }

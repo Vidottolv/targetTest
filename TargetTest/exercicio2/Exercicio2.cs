@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TargetTest.exercicio2
 {
-    internal class Program2
+    internal class Exercicio2
     {
         public static int PredictNextNumber(int[] seqNums)
         {
