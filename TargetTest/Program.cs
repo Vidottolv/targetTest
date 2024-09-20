@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TargetTest.exercicio1;
 using TargetTest.exercicio2;
+using TargetTest.exercicio3;
 
 namespace TargetTest
 {
@@ -20,6 +21,10 @@ namespace TargetTest
             else if (args.Length > 0 && args[0] == "exe2")
             {
                 Program2.Executar();
+            }
+            else if(args.Length > 0 && args[0] == "exe3")
+            {
+                Program3.Executar();
             }
         }
     }
