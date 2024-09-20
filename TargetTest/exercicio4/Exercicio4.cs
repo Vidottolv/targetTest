@@ -30,7 +30,7 @@ namespace TargetTest.exercicio4
                 // Consultando clientes de SP
                 var clientesSp = context.Clientes
                     .Include(c => c.Telefones)
-                    .Where(c => c.Estado.Codigo == "SP")
+                    .Where(c => c.Estado.EstadoCodigo == "SP")
                     .ToList();
             }
         }
